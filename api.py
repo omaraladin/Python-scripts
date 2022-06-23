@@ -16,8 +16,7 @@ class Locations(Resource):
     # methods go here
     pass
 
-api.add_resource(Users, '/users') # '/users' is our entrypoint
-api.add_resource(Locations, '/locations') # '/locations' is our entrypoint
+api.add_resource(Users, '/rollback') # '/rollback' is our entrypoint
 
 path = '/home/ansible/vpn_ops'
 files = os.listdir(path)
