@@ -19,7 +19,7 @@ class Locations(Resource):
 
 api.add_resource(Users, '/rollback') # '/rollback' is our entrypoint
 
-path = '/home/ansible/vpn_ops'
+path = '/home/ansible/'
 files = os.listdir(path)
 
 for file in files:
